@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@akarui/aoi.music": "^2.3.1",
+    "aoi.js": "^6.5.6",
+    "ffmpeg-static": "^5.2.0",
+    "nodemon": "^3.0.1",
+    "opusscript": "^0.0.8"
+  }
+}
