@@ -4,7 +4,7 @@ const {
 } = require("@akarui/aoi.music");
 
 const client = new AoiClient({
-  token: "TOKEN",
+  token: "TOKEN", // Your bot token
   prefix: "l:", // You can change this however you'd like
   intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
   events: ["onMessage", "onInteractionCreate"],
