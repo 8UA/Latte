@@ -1,9 +1,13 @@
 module.exports = [{
     name: "youtube",
+    aliases: ["yt"],
     code: `
-    Now playing - ($songInfo[title])
+    $color[#F22727]
+    $title[Latte - Youtube]
+    $description[Now playing : $songInfo[title]]
+    $footer[Requested by $userTag]
     $playTrack[$cropText[$message;12];youtube]
-    $stopTrack
-    $joinVC`,
+    $joinVC[$voiceID]
+    `,
   },
 ];
