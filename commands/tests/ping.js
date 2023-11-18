@@ -1,5 +1,5 @@
 module.exports = [{
-  name: "ping",
-  code: `Bot's ping: $pingms`,
+    name: "ping",
+    code: `Bot's ping: $pingms`,
   },
 ];
