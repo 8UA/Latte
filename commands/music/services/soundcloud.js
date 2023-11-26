@@ -8,6 +8,7 @@ module.exports = [{
     $footer[Requested by $userTag]
     $playTrack[$cropText[$message;12];soundcloud]
     $joinVC[$voiceID]
+    $clientTyping
     `,
   },
 ];
