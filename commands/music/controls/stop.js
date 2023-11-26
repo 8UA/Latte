@@ -1,7 +1,8 @@
 module.exports = [{
     name: "stop",
     code: `
-    Track stopped.
+    Track stopped, leaving VC.
+    $leaveVC[$guildID]
     $stopTrack
     `,
   },
