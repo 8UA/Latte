@@ -7,7 +7,7 @@ A little Discord bot powered by [aoi.js v6](https://aoi.js.org/), it is intended
 To install Latte you can run this command inside the project directory:
 
 ```bash
-  npm install
+  npm update
 ```
 
 ## Start the bot
